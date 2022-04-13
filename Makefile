@@ -4,5 +4,5 @@ clean-ds-store:
 	@rm -rfv .DS_Store & rm -rfv */.DS_Store & rm -rfv */*/.DS_Store & rm -rfv */*/*/.DS_Store & rm -rfv */*/*/*/.DS_Store
 
 # INSTALL
-install-core-static:
-	@bash core/.bash install-static
+install-server-static:
+	@bash server/.bash install-static
