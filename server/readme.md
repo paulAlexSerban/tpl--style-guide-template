@@ -1,2 +1,2 @@
-# Core
+# Server
 > version 0.2.0

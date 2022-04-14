@@ -1,7 +1,7 @@
 # Project Template
 
-> version 0.1.1
+> version 0.2.0
 
 ## How to use...
 
-- RUN `$ make install-core-static` - to install and start local docker instance
+- RUN `$ make install-server-static` - to install and start local docker instance
