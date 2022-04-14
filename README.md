@@ -1,7 +1,8 @@
 # Project Template
 
-> version 0.2.0
+> version 0.3.0
 
 ## How to use...
 
-- RUN `$ make install-server-static` - to install and start local docker instance
+- **INSTALL & START**
+  - RUN `$ make install` - local docker instance for library
