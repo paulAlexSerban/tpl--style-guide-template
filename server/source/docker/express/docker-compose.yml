@@ -9,13 +9,14 @@ services:
   nginx:
     build:
       context: .
-      dockerfile: nginx.Dockerfile
+      dockerfile: express.Dockerfile
     ports:
-      - "80:80" # expose 80 on host and sent to 80 in container
-    container_name: static-nginx
+      - "8080:8080" # expose 80 on host and sent to 80 in container
+    container_name: express
     networks:
       - projectTemplate
     restart: always
     volumes:
+      - ./app:/usr/src/app
       - ./html:/usr/src/static
       - ./assets:/usr/src/assets

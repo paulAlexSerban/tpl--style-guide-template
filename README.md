@@ -4,4 +4,6 @@
 
 ## How to use...
 
-- RUN `$ make install-server-static` - to install and start local docker instance
+- **INSTALL & START**
+  - RUN `$ make install-server-static` - local docker instance for static development
+  - RUN `$ make install-server-express` - local docker instance for express development
