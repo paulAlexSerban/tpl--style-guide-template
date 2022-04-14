@@ -5,5 +5,4 @@
 ## How to use...
 
 - **INSTALL & START**
-  - RUN `$ make install-server-static` - local docker instance for static development
-  - RUN `$ make install-server-express` - local docker instance for express development
+  - RUN `$ make install` - local docker instance for library
