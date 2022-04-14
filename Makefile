@@ -7,9 +7,7 @@ clean-server-dist:
 	@rm -rfv server/dist/*
 
 # INSTALL
-install-server-static: clean-server-dist
-	@bash server/.bash install-static
-
-install-server-express: clean-server-dist
-	@cp -rfv core/source/* server/dist
-	@bash server/.bash install-express
+install: clean-server-dist
+	@cp -rfv ./dashboard/source/* ./server/dist/
+	@cp -rfv ./library/source ./server/dist/library/
+	@bash server/.bash install
